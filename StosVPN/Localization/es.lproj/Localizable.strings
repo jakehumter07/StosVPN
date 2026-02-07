@@ -23,6 +23,12 @@
 "local" = "Local";
 "assigned_ip" = "IP Asignada";
 
+/* MARK: Locales */
+"english" = "Inglés";
+"spanish" = "Español";
+"italian" = "Italiano";
+"polish" = "Polaco";
+
 /* MARK: Configuración */
 
 "connection_settings" = "Configuración de Conexión";
@@ -37,12 +43,13 @@
 "data_collection_policy" = "Política de Recopilación de Datos";
 "app_version" = "Versión de la App";
 "help_and_support" = "Ayuda y Soporte";
-"language" = "Idioma";
-"english" = "Inglés";
-"spanish" = "Español";
-"italian" = "Italiano";
+"language" = "Establecer idioma";
+"dropdown_language" = "Idioma";
 "settings" = "Configuración";
 "done" = "Hecho";
+"warning_alert" = "Advertencia";
+"warning_message" = "Cambiar la configuración de la IP del túnel puede interrumpir tu conexión de red. Procede solo si estás seguro de lo que haces.";
+"understand_button" = "Entiendo";
 
 "data_collection_policy_title" = "Política de Recopilación de Datos";
 "no_data_collection" = "No Recopilación de Datos";
@@ -96,7 +103,7 @@
 "biz_point4" = "• Todas las funciones son gratuitas para todos los usuarios";
 "biz_point5" = "• La app es desarrollada y mantenida como una utilidad abierta para la comunidad de iOS";
 "app_info_header" = "Información de la App";
-"requires_ios" = "Requiere iOS 16.0 o superior";
+"requires_ios" = "Requiere iOS 14.0 o superior";
 "uses_network_extension" = "Usa la API de Extensión de Red de Apple";
 "help_and_support_nav" = "Ayuda & Soporte";
 "setup_welcome_title" = "Bienvenido a StosVPN";
@@ -115,3 +122,9 @@
 "setup_get_started" = "Comenzar";
 "setup_next" = "Siguiente";
 "setup_skip" = "Saltar";
+
+/*MARK: Restart pop-up*/
+restart_title = "Reiniciar";
+restart_message = "Para aplicar los cambios, es necesario reiniciar la aplicación.";
+confirmYes = "Sí";
+confirmNo = "No";
